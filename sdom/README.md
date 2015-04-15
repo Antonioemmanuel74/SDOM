@@ -1,2 +1,0 @@
-# sdom
-web project
