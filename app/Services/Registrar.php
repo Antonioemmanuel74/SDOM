@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace sdom\Services;
 
-use App\User;
+use sdom\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 
