@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <!-- Start Hesder -->
-<?php include '/include/header.php';?>
+    <head>
+	@include('include.head')
+	
+</head>
+<body>
+@include('include.header')
 <!-- End header -->
 
-
-<!-- body -->
 <div style="height:10cm;" >
      
      
 </div>
 
+<!-- End if 2nd section -->
     <!-- Start Footer -->
-<?php include '/include/footer.php';?>
+@include('include.footer')
     <!-- End Footer -->
+
+@include('include.foot')
+</body>
+
 </html>

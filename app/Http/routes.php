@@ -1,87 +1,89 @@
 <?php
 
 
-    Route::get('/', 'PagesController@index');
+   Route::get('/', 'PagesController@index');
     
-    Route::get('service', 'PagesController@service');
+   Route::get('service.php', 'PagesController@service');
     
+   Route::get('solution.php', 'PagesController@solution');
     
-    Route::get('solution', 'PagesController@solution');
+   Route::get('KC.php', 'PagesController@KC');
     
+   Route::get('company.php', 'PagesController@company');
     
-    Route::get('KC', 'PagesController@KC');
+   Route::get('assesment.php', 'PagesController@assesment');
     
+   Route::get('BS_Account.php', 'PagesController@BS_Account');
     
-    Route::get('company', 'PagesController@company');
+   Route::get('BS_HumanResource.php','PagesController@BS_HumanResource');
     
+   Route::get('BS_LegalDept.php','PagesController@BS_LegalDept');
     
-    Route::get('assesment', 'PagesController@assesment');
+   Route::get('BS_Marketing.php','PagesController@BS_Marketing');
     
-    Route::get('BS_Account', 'PagesController@BS_Account');
+   Route::get('BS_Operation.php','PagesController@BS_Operation');
     
-    Route::get('BS_HumanResource','PagesController@BS_HumanResource');
+   Route::get('BS_Procurement.php','PagesController@BS_Procurement');
     
-    Route::get('BS_LegalDept','PagesController@BS_LegalDept');
+   Route::get('BusinessSolution.php','PagesController@BusinessSolution');
     
-    Route::get('BS_Marketing','PagesController@BS_Marketing');
+   Route::get('C_AboutUs.php','PagesController@C_AboutUs');
     
-    Route::get('BS_Operation','PagesController@BS_Operation');
+   Route::get('C_CIC.php','PagesController@C_CIC');
+   
+   Route::get('C_ContactUs.php','PagesController@C_ContactUs');
     
-    Route::get('BS_Procurement','PagesController@BS_Procurement');
+   Route::get('C_Support.php','PagesController@C_Support');
     
-    Route::get('BusinessSolution','PagesController@BusinessSolution');
+   Route::get('Company.php','PagesController@Company');
     
-    Route::get('C_AboutUs','PagesController@C_AboutUs');
+   Route::get('ComplianceMgt.php','PagesController@ComplianceMgt');
     
-    Route::get('C_CIC','PagesController@C_CIC');
+   Route::get('CSoln_DataBackup.php','PagesController@CSoln_DataBackup');
     
-    Route::get('C_ContactUs','PagesController@C_ContactUs');
+   Route::get('DAM.php','PagesController@DAM');
     
-    Route::get('C_Support','PagesController@C_Support');
+   Route::get('Edm.php','PagesController@Edm');
     
-    Route::get('Company','PagesController@Company');
+   Route::get('I_Academics.php','PagesController@I_Academics');
     
-    Route::get('ComplianceMgt','PagesController@ComplianceMgt');
+   Route::get('I_Association.php','PagesController@I_Association');
     
-    Route::get('CSoln_DataBackup','PagesController@CSoln_DataBackup');
+   Route::get('I_Construction.php','PagesController@I_Construction');
     
-    Route::get('DAM','PagesController@DAM');
-    
-    Route::get('Edm','PagesController@Edm');
-    
-    Route::get('I_Academics','PagesController@I_Academics');
-    
-    Route::get('I_Association','PagesController@I_Association');
-    
-    Route::get('I_Construction','PagesController@I_Construction');
-    
-    Route::get('I_Finance','PagesController@I_Finance');
+   Route::get('I_Finance.php','PagesController@I_Finance');
                         
-   Route::get('I_Government','PagesController@I_Government');
+   Route::get('I_Government.php','PagesController@I_Government');
                            
-   Route::get('I_HealthCare','PagesController@I_HealthCare');
+   Route::get('I_HealthCare.php','PagesController@I_HealthCare');
                               
-   Route::get('I_Insurance','PagesController@I_Insurance');
+   Route::get('I_Insurance.php','PagesController@I_Insurance');
                                  
-     Route::get('I_LawFirm','PagesController@I_LawFirm');
+   Route::get('I_LawFirm.php','PagesController@I_LawFirm');
                                     
-     Route::get('I_Finance','PagesController@I_Finance');
+   Route::get('I_Finance.php','PagesController@I_Finance');
                                        
-      Route::get('I_Manufacture','PagesController@I_Manufacture');
+   Route::get('I_Manufacture.php','PagesController@I_Manufacture');
                                           
-     Route::get('Industry','PagesController@Industry');
+   Route::get('Industry.php','PagesController@Industry');
                                              
-    Route::get('KC','PagesController@KC');
-    
-    Route::get('Records','PagesController@Records');
-    Route::get('service','PagesController@service');
-    
-    Route::get('SME','PagesController@SME');
-    Route::get('SME_DataBackup','PagesController@SME_DataBackup');
-    Route::get('SME_DigitalConv','PagesController@SME_DigitalConv');
-    Route::get('SME_RecordStorage','PagesController@SME_RecordStorage');
-    Route::get('SME_SecureShereding','PagesController@SME_SecureShereding');
-    Route::get('solution','PagesController@solution');
+   Route::get('KC.php','PagesController@KC');
+   
+   Route::get('RecordsMgt.php','PagesController@RecordsMgt');
+   
+   Route::get('service.php','PagesController@service');
+   
+   Route::get('SME.php','PagesController@SME');
+   
+   Route::get('SME_DataBackup.php','PagesController@SME_DataBackup');
+   
+   Route::get('SME_DigitalConv.php','PagesController@SME_DigitalConv');
+   
+   Route::get('SME_RecordStorage.php','PagesController@SME_RecordStorage');
+   
+   Route::get('SME_SecureShereding.php','PagesController@SME_SecureShereding');
+   
+   Route::get('solution.php','PagesController@solution');
     
     
         
