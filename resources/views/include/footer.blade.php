@@ -2,7 +2,7 @@
     <div class="container" id="foot">
     <div class="row-fluid">
         <div class="col-md-3">
-            <div class="contact"><h3 style="color: white; margin: 0px; padding: 13px;">Contact Us</h3>
+            <div class="contact"><a href="C_ContactUs"><h3 style="color: white; margin: 0px; padding: 13px;">Contact Us</h3></a>
            <form  role="search" method="get" id="searchform" action="https://squareone-ng.net/" class="searchBox"> 
 		<input type="search" value=" " name="s" id="s" /> 
 		<input type="submit" value="" class="searchIcon" id="searchsubmit">
@@ -25,8 +25,8 @@
                             
                         
             		<div class="tallRow mobileHide"></div>
-            		<div class="copyrights">
-            			<p>2015 RedBrick Health</p>
+            		<div class="copyrights" style="width:10cm;">
+            			<p>2015 SODM</p>
             		</div>
             		<div class="tallRow mobileHide"></div>
             	</div>
