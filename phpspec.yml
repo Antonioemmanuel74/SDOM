@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: sdom
-        psr4_prefix: sdom
-        src_path: app
